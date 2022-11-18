@@ -1,0 +1,203 @@
+body {
+    margin:0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding:30px;
+    box-shadow: 0 8px 6px -6px green;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #eee;
+    height:70px;
+    max-width: 600px;
+    height: 75px;
+    z-index: 1;
+    
+}
+
+
+.green-circle {
+    width: 11px;
+    height: 11px;
+    background-color:green;
+    border-radius: 50%;
+    position: relative;
+    right: 20px;
+   
+
+}
+
+.table-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 50%;
+    
+}
+
+.xmark {
+    color:red;
+    font-weight: bold;
+    border:none;
+}
+
+.table {
+    
+    max-width: 600px;
+    margin:0 auto; 
+    background-color:white ;
+    height:80px;
+    padding-top: 5px;
+}
+        
+
+.reg-button {
+    background-color: rgb(73 132 73);
+    border-radius: 5px;
+    width: 30%;
+    border:none ;
+    height: 50px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.reg-button button {
+    border:none;
+    background-color:rgb(73 147 73) ;
+    color:white;
+}
+
+.reg-button-div {
+    display:flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-color:#eee;
+}
+
+/* .row button {
+    border: none ;
+} */
+
+.on-button {
+    background-color: #abaaaa;
+    border: none;
+    border-radius: 34%;
+    width: 47px;
+    height: 20px;
+    font-size: 10px;
+    text-align: left;
+  
+}
+
+button , a{
+    cursor: pointer;
+}
+
+.header button {
+    border:none;
+    background-color: white;
+}
+
+.header button i {
+    font-size:20px;
+    color:rgb(169, 164, 164);
+}
+
+.header a {
+    text-decoration: none;
+    color:rgb(73, 73, 165);
+    font-size:18px;
+}
+
+.footer {
+    display:flex;
+    flex-direction:column;
+    padding-top:50px;
+    background-color:#eee;
+    padding-bottom:50px;
+}
+
+
+.footer-container {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-second-element { 
+    text-decoration: none ;
+    color: rgb(73, 73, 165);
+
+}
+
+.phone-number {
+    color: rgb(73 147 73);
+}
+
+.container {
+    background-color:white ;
+    max-width: 620px;
+    margin:0 auto ;
+}
+
+.main-section {
+    background-color:#eee ;
+    padding-top:100px;
+}
+ 
+.container:nth-child(2) .table .row {
+    background-color:white;
+    position: relative;
+
+  }  
+
+  .container:nth-child(4) .table .row {
+    background-color:white;
+    position: relative;
+}  
+
+
+.container:nth-child(2) .table .row .xmark {
+    background-color: white;
+}
+
+.container:nth-child(4) .table .row .xmark {
+    background-color: white;
+}
+
+.container:nth-child(3) .table .row .phone-number {
+    color:rgb(212, 109, 109);
+}
+
+.container:nth-child(3) .table .row .table-div {
+    flex-direction: row-reverse;
+    position:relative;
+    right: 10px;
+
+
+}
+
+.container:nth-child(3) .table .row .table-div .green-circle {
+    background-color: red;
+    left: 20px;
+    width: 12px;
+    height: 12px;
+    
+}
+
+.container:nth-child(3) .table .row .table-div .on-button {
+    position:relative;
+    text-align: right;
+    
+}
